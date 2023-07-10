@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+* {box-sizing: border-box}
+
+
+.all-skills {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.container {
+  width: 100%;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: darkblue;
+}
+
+.html {
+    width: 90%;
+    background: linear-gradient(45deg, rgb(77, 180, 80), rgb(35, 144, 234));
+}
+.css {
+    width: 90%;
+    background: linear-gradient(45deg, rgb(35, 144, 234),rgb(210, 72, 164));
+}
+.bem {
+    width: 85%;
+    background: linear-gradient(45deg, rgb(179, 16, 82),rgb(210, 72, 164));
+}
+.bootstrap {
+    width: 90%;
+    background: linear-gradient(45deg, rgb(173, 84, 119),rgb(94, 173, 92));
+}
+
+.animation {
+    width: 90%;
+    background: linear-gradient(45deg, #f06,#3cf);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
